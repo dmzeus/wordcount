@@ -10,5 +10,5 @@ func main() {
 	inputString := os.Args[1]
 	length := len(strings.Fields(inputString))
 
-	fmt.Printf("word count in string '%v' is %v.\n", inputString, length)
+	fmt.Println(length)
 }
